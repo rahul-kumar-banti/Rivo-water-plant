@@ -1,0 +1,56 @@
+@font-face{
+    font-family: "flama-light";
+    src: url(../fonts/Flama-Light.otf);
+
+}
+@font-face{
+    font-family: "flama-base";
+    src: url(../fonts/Flama-Basic.otf);
+
+}
+.g-img
+{
+    height: 150px !important;
+    width: 200px !important;
+}
+.g-img:hover{
+    cursor: pointer;
+}
+.btn-order
+{
+    background-color:lightgreen !important;
+}
+.wow{
+    padding: 0%;
+}
+.gallery
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+
+}
+.text-justify,p{
+    text-align: justify;
+    color: black !important;
+}
+.header-text-shadow{
+   text-shadow: 2px 2px 6px rgb(0, 183, 255);
+   /* box-shadow: -2px -2px 3px gray; */
+   padding-left: 10px;
+   padding: 5px;
+
+    }
+    p{
+        font-family: "flama-base";
+    }
+    .note-txt{
+        font-family: "flama-light";
+    }
+    article{
+        text-transform: capitalize;
+        font-family: "flama-light";
+        word-spacing: 10%;
+        
+    }
+   
