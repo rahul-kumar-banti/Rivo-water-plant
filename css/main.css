@@ -28,6 +28,10 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
+    background: url(../img/Water-Background.jpeg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
 
 }
 .text-justify,p{
@@ -47,10 +51,34 @@
     .note-txt{
         font-family: "flama-light";
     }
-    article{
+    .box-default>article{
         text-transform: capitalize;
-        font-family: "flama-light";
+        color: white;
+        /* font-family: "flama-light"; */
         word-spacing: 10%;
+        word-wrap: break-word;
+        text-shadow: 0px 0px 0.5px white,1px 1px 1px gray;
         
+        
+    }
+    .box-default{
+    height: 420px !important;
+    }
+    .product-img{
+        max-height:150px !important;
+        max-width: 120px !important;
+        margin-left: 20%;
+    }
+    .box-default:hover .product-img{
+        box-shadow: 5px 5px 4px gray;
+    }
+    .btn-order{
+        margin-left: 20% !important;
+    }
+    .g-img:hover{
+        box-shadow: 0px 4px 2px 3px white; 
+    }
+    .lg-toolbar{
+        z-index: 111111 !important;
     }
    
